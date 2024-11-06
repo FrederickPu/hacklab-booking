@@ -58,7 +58,9 @@ To deploy, get the latest code, and run `docker compose up -d --build`. This wil
   http_mail
   http_cn
   ```
-
+This can be done using any chrome extension that modifies request headers.
+For example, here is how you set the headers in [Requestly](https://chromewebstore.google.com/detail/requestly-intercept-modif/mdnleldcmiljblolnjhpnblkcekpdkpa):
+![httpHeaders](https://imgur.com/or2vIbF.png)
 - connect to PostgreSQL by connecting to `jdbc:postgresql://localhost:5432/postgres` with the credentials `postgres:example`.
 
     - under the `User` table, modify your account to have the `admin` role.
